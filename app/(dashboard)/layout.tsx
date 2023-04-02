@@ -8,7 +8,7 @@ import GlassPane from "@/components/GlassPane";
 //   variable: "--font-inter",
 // });
 
-export default function DashboardRootLayout({ children }) {
+export default function DashboardRootLayout({ children }:any) {
   return (
     <html lang="en" 
     // className={clsx(inter.variable, "dark")}
