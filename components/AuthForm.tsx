@@ -18,9 +18,9 @@ const registerContent = {
 const signinContent = {
   linkUrl: "/register",
   linkText: "Don't have an account?",
-  header: "Welcome Back!",
+  header: "Welcome Back",
   subheader: "Enter your credentials to access your account",
-  buttonText: "Sign In.",
+  buttonText: "Sign In",
 };
 
 const initial = { email: "", password: "", firstName: "", lastName: "" };
