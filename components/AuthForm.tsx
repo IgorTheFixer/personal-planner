@@ -20,7 +20,7 @@ const signinContent = {
   linkText: "Don't have an account?",
   header: "Welcome Back!",
   subheader: "Enter your credentials to access your account",
-  buttonText: "Sign In",
+  buttonText: "Sign In.",
 };
 
 const initial = { email: "", password: "", firstName: "", lastName: "" };
