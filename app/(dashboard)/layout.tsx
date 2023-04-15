@@ -19,6 +19,9 @@ export default function DashboardRootLayout({ children }:any) {
           <Sidebar />
           <main className="w-full pl-6 h-full">{children}</main>
         </GlassPane>
+        <div className="w-1/3 p-3">
+          <NewProject />
+        </div>
       </body>
     </html>
   );
