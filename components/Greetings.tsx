@@ -7,12 +7,13 @@ import { delay } from "@/lib/async";
 const getData = async () => {
   await delay(5000);
   const user = await getUserFromCookie(cookies());
+  console.log(user)
   return user;
 };
 
 const Greetings = async () => {
   const user = await getData();
-
+  
   return (
     <Card className="w-full py-4 relative">
       <div className="mb-4">

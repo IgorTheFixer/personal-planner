@@ -3,10 +3,7 @@ import { db } from "@/lib/db";
 import { comparePasswords, createJWT } from "@/lib/auth";
 import { serialize } from "cookie";
 
-export default async function signin(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+export default async function signin(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "POST") {
     const user = await db.user.findUnique({
       where: {

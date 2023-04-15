@@ -7,8 +7,9 @@ const fetcher = async ({ url, method, body, json = true }:any) => {
       "Content-Type": "application/json",
     },
   });
-
+  
   if (!res.ok) {
+    //TODO:add error handling
     throw new Error("API Error");
   }
 
