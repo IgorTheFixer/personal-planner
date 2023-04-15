@@ -36,6 +36,7 @@ const NewProject = () => {
             value={name}
             onChange={(e:any) => setName(e.target.value)}
           />
+          {/* @ts-expect-error Server Component */}
           <Button type="submit">Create</Button>
         </form>
       </Modal>
